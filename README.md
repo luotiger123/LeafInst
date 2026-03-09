@@ -1,5 +1,8 @@
 # LeafInst: Instance Segmentation for Forestry Leaf Phenotyping with LGCI Evaluation
 
+## Model Architecture
+
+![LeafInst Model](model.png)
 This repository provides the official implementation of **LeafInst**, an instance segmentation framework designed for **forestry leaf phenotyping in complex UAV scenarios**, together with the **Leaf Growth Condition Indicator (LGCI)** computation pipeline.
 
 LeafInst is designed to address the challenges of forestry leaf phenotyping, including:
