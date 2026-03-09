@@ -1,0 +1,32 @@
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+Copyright (c) 2026 Sheng Xu
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+---------------------------------------------------------------------
+
+This project is built upon the MMDetection framework developed by
+OpenMMLab. The original MMDetection project is licensed under the
+Apache License 2.0.
+
+Modifications in this repository include the implementation of the
+LeafInst architecture and the LGCI evaluation pipeline.
+
+Citation Request
+----------------
+
+If you use this code or the LeafInst method in your research,
+please cite the corresponding paper by Sheng Xu.
