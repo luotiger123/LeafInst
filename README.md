@@ -53,6 +53,9 @@ LeafInst/
 ## Dataset – Poplar-leaf
 
 ![dataset](dataset.png)
+The Poplar dataset is publicly available on Kaggle:
+
+👉 https://www.kaggle.com/datasets/vvghigh/poplar
 
 To address challenges in forestry leaf phenotyping, we constructed **Poplar-leaf**, a UAV-based benchmark dataset collected in the poplar plantation of Huanghai Seaside National Forest Park, Dongtai City, Jiangsu Province, China (32°51'N, 120°50'E).
 
