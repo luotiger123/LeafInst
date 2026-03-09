@@ -1,4 +1,4 @@
-# LeafInst: Instance Segmentation for Forestry Leaf Phenotyping with LGCI Evaluation
+# LeafInst - Unified Instance Segmentation Network for Fine-Grained Forestry Leaf Phenotype Analysis: A New UAV based Benchmark
 
 ## Model Architecture
 
