@@ -17,7 +17,9 @@ In addition, we propose **LGCI (Leaf Growth Condition Indicator)**, a quantitati
 
 ---
 
-# Repository Structure
+## Repository Structure
+
+```text
 LeafInst/
 │
 ├── models/                     # Core model components
@@ -43,3 +45,4 @@ LeafInst/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 └── LICENSE                     # License file
+```
