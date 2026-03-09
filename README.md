@@ -49,3 +49,30 @@ LeafInst/
 ├── README.md                   # Project documentation
 └── LICENSE                     # License file
 ```
+
+## Dataset – Poplar-leaf
+
+![dataset](dataset.png)
+
+To address challenges in forestry leaf phenotyping, we constructed **Poplar-leaf**, a UAV-based benchmark dataset collected in the poplar plantation of Huanghai Seaside National Forest Park, Dongtai City, Jiangsu Province, China (32°51'N, 120°50'E).
+
+Images were acquired using a **DJI M350RTK UAV equipped with a P1 camera**, flying at an altitude of **5 m** along pre-planned routes to capture multi-angle views of tree canopies.
+
+The dataset contains:
+
+- **1,202 labeled images**
+- **19,876 leaf instances**
+- **1,202 leaf branches**
+- Resolution: **1024 × 1024**
+- Split: **Train / Val / Test = 8 : 1 : 1**
+
+Pixel-level instance annotations were created using **LabelMe**, supported by the **SAM model** for initial segmentation and refined through manual verification by an 8-person annotation team over 7 days.
+
+To improve model robustness, two data augmentation strategies were applied:
+
+- Random horizontal flip (p = 0.5)
+- Random illumination adjustment (0.8–1.1)
+
+Additionally, we provide **40.8 GB of unlabeled UAV imagery**, covering nearly all young poplar trees in the study area, which can be used for **self-supervised learning and transfer learning tasks**.
+
+Poplar-leaf is the **first large-scale UAV-based benchmark dataset for forestry leaf instance segmentation**, capturing natural leaf morphology under diverse illumination and viewing conditions. It provides valuable resources for research in **smart forestry breeding, vegetation phenotyping, and AI-based forest monitoring**.
