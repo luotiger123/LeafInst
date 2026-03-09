@@ -20,21 +20,26 @@ In addition, we propose **LGCI (Leaf Growth Condition Indicator)**, a quantitati
 # Repository Structure
 LeafInst/
 │
-├── models/                         # Core model components                         # How to use this code?
-│   ├── AFPN.py                     # AFPN (Asymptotic Feature Pyramid Network)     # replace FPN.py in MMdetection
-│   └── TCFU.py                     # Mask feature module with TCFU fusion          # Cover the originial MaskFeatModule class in CondInst_head.py
-│   └── DARH.py                     # Dynamic Anomalous Regression Head             # General module header
+├── models/                     # Core model components
+│   ├── AFPN.py                 # Asymptotic Feature Pyramid Network
+│   │                           # Replace FPN.py in MMDetection
+│   │
+│   ├── TCFU.py                 # TCFU mask feature fusion module
+│   │                           # Replace MaskFeatModule in CondInst_head.py
+│   │
+│   └── DARH.py                 # Dynamic Anomalous Regression Head
+│                               # General module head
 │
-├── lgci/                           # LGCI computation pipeline
-│   └── compute_lgci.py             # LGCI indicator calculation and visualization
+├── lgci/                       # LGCI computation pipeline
+│   └── compute_lgci.py         # LGCI indicator calculation and visualization
 │
-├── configs/                        # Model configuration files
-│   └── leafinst_config.py          # Training / inference configuration
+├── configs/                    # Model configuration files
+│   └── leafinst_config.py      # Training / inference configuration
 │
-├── data/                           # Dataset directory (COCO format)
+├── data/                       # Dataset directory (COCO format)
 │   ├── images/
 │   └── annotations/
 │
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-└── LICENSE                         # License file
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+└── LICENSE                     # License file
